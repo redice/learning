@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B158AE2D1611CD26003BBB31 /* a1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = a1.py; sourceTree = "<group>"; };
+		B158AE2E1612B674003BBB31 /* demo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = demo.py; path = ch9Tuple/demo.py; sourceTree = "<group>"; };
+		B16CB1F216460E55003B0531 /* thefile.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = thefile.py; path = ch9Tuple/thefile.py; sourceTree = "<group>"; };
+		B16CB1FC16464AF4003B0531 /* thepickle.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = thepickle.py; path = ch9Tuple/thepickle.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B158AE211611CD0F003BBB31 = {
+			isa = PBXGroup;
+			children = (
+				B16CB1FC16464AF4003B0531 /* thepickle.py */,
+				B16CB1F216460E55003B0531 /* thefile.py */,
+				B158AE2E1612B674003BBB31 /* demo.py */,
+				B158AE2D1611CD26003BBB31 /* a1.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B158AE231611CD0F003BBB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = B158AE261611CD0F003BBB31 /* Build configuration list for PBXProject "learning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B158AE211611CD0F003BBB31;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B158AE281611CD0F003BBB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B158AE291611CD0F003BBB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B158AE261611CD0F003BBB31 /* Build configuration list for PBXProject "learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B158AE281611CD0F003BBB31 /* Debug */,
+				B158AE291611CD0F003BBB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B158AE231611CD0F003BBB31 /* Project object */;
+}
