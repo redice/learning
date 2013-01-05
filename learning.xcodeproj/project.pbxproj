@@ -11,10 +11,27 @@
 		B158AE2E1612B674003BBB31 /* demo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = demo.py; path = ch9Tuple/demo.py; sourceTree = "<group>"; };
 		B16CB1F216460E55003B0531 /* thefile.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = thefile.py; path = ch9Tuple/thefile.py; sourceTree = "<group>"; };
 		B16CB1FC16464AF4003B0531 /* thepickle.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = thepickle.py; path = ch9Tuple/thepickle.py; sourceTree = "<group>"; };
+		B177F10716932070001F94B9 /* demo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = demo.py; path = ch10.statement/demo.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		B158AE211611CD0F003BBB31 = {
+			isa = PBXGroup;
+			children = (
+				B177F10416932045001F94B9 /* ch10.statement */,
+				B1DD3F84168D5CB100BEC7DE /* ch9Tuple */,
+			);
+			sourceTree = "<group>";
+		};
+		B177F10416932045001F94B9 /* ch10.statement */ = {
+			isa = PBXGroup;
+			children = (
+				B177F10716932070001F94B9 /* demo.py */,
+			);
+			name = ch10.statement;
+			sourceTree = "<group>";
+		};
+		B1DD3F84168D5CB100BEC7DE /* ch9Tuple */ = {
 			isa = PBXGroup;
 			children = (
 				B16CB1FC16464AF4003B0531 /* thepickle.py */,
@@ -22,6 +39,7 @@
 				B158AE2E1612B674003BBB31 /* demo.py */,
 				B158AE2D1611CD26003BBB31 /* a1.py */,
 			);
+			name = ch9Tuple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

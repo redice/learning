@@ -1,5 +1,6 @@
 import os, sys
 import pickle
+import struct
 
 class TheFile:
   def init(self):
@@ -47,11 +48,22 @@ class TheFile:
         list = line.rsplit('dir = ')
         print(eval(list[1]))
 
+  def dataStruct(self):
+    file = open('data.bin', 'wb')
+#    data = struct.pack('>i4sh', 7, 'spam', 8)
+#    file.write(data)
+    file.close()
+
+  def dataUnstruct(self):
+    file = open('data.bin', 'r')
+    data = file.read()
+    values = struct.unpack('>i4sh', data)
+    print("value result = {0}".format(values))
   
 if __name__ == "__main__":
   app = TheFile()
   app.init()
-  app.readBinaryData()
+  app.dataStruct()
 
 
 
